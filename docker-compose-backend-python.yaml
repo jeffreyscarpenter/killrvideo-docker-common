@@ -7,7 +7,7 @@ version: '3'
 
 services:
   backend:
-    image: killrvideo/killrvideo-python:0.9.2
+    image: killrvideo/killrvideo-python:3.0.1-rc1
     depends_on:
       - kafka
 
